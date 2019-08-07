@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+body{
+    margin: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+h1 {
+    display: block;
+    margin: 20px auto;
+    color: navy;
+    text-align: center;
+}
+
+.userList {
+    display: block;
+    width: 10%;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.messages {
+    display: block;
+    width: 25%;
+    margin: 25px auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+.userInfo {
+    display: block;
+    width: 50%;
+    margin: 25px auto;
+    text-align: center;
+}

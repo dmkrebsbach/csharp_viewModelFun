@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    	<title>Dojo Survey Input Page</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="~/css/Index.css">
+	</head>
+    <body>
+        <h1>Here Is One Specific User!</h1>
+        
+        <div class="userInfo">
+        @model viewModels2.Models.User
+        
+        <h1>Super sweet page for @Model.FirstName @Model.LastName</h1>
+        <br>
+        <a href="/">Return to Home</a>
+        <a href="/users">Return to Users</a>
+        <a href="/numbers">Return to Numbers</a>
+        <a href="/user">Return to User Page</a>
+        </div>
+        
+    </body>
+</html>
